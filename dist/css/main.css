@@ -291,9 +291,9 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
+    padding: 0.5rem 1.5rem;
     font-size: 2rem;
     border: 3px #195a4f solid;
-    padding: 0.5rem 1.5rem;
     margin-bottom: 3rem;
     transition: all 0.5s ease-out; }
     .boxes div:hover {
@@ -366,5 +366,7 @@ main {
     main .lg-heading {
       margin-top: 10vh;
       font-size: 5rem; }
+    main .boxes div {
+      font-size: unset; }
   .projects {
     grid-template-columns: 1fr; } }

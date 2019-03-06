@@ -96,6 +96,12 @@
       margin-top: 10vh;
       font-size: 5rem;
     }
+
+    .boxes {
+      div {
+        font-size: unset;
+      }
+    }
   }
 
   .projects {
