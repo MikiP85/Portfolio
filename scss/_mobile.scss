@@ -46,7 +46,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url(../img/portrait_small.jpg);
+      background: url("../img/portrait_small.jpg");
       background-position: center;
       width: 150px;
       height: 150px;
@@ -60,7 +60,8 @@
       "tech-tools"
       "job1"
       "job2"
-      "job3";
+      "job3"
+      "job4";
 
     grid-template-columns: 1fr;
     .tech-tools {
